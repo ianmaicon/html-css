@@ -105,3 +105,10 @@ footer {
 footer > p {
     font-size: 0.5em;
 }
+
+#github {
+    
+    position: relative;
+    top: 5px;
+    
+}
