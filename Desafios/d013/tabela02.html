@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesclagem de Células</title>
+    <style>
+
+        h1 {
+            background-image: linear-gradient(to right, purple, red);
+            color: rgba(255, 255, 255, 0.781);
+            padding: 6px;
+            text-align: center;
+            margin: 0vh;
+        }
+
+        body {
+            background-color: rgba(255, 217, 0, 0.808);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header {
+            margin: -8px -6px 0px -8px;
+        }
+
+        table {
+            background-color: white;
+            height: 300px;
+            width: 600px;
+            margin: auto;
+            text-align: center;
+            padding: 20px;
+
+        }
+
+        td {
+            border: 1px solid black;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Mesclando Células De Letras</h1>
+    </header>
+
+    <table>
+        <tr>
+            <td colspan="4">A</td>
+            <td rowspan="4">B</td>
+        </tr>
+
+        <tr>
+            <td rowspan="5">C</td>
+            <td>D</td>
+            <td>E</td>
+            <td>F</td>
+        </tr>
+
+        <tr>
+            <td>G</td>
+            <td>H</td>
+            <td>I</td>
+        </tr>
+
+        <tr>
+            <td>J</td>
+            <td>L</td>
+            <td>M</td>
+        </tr>
+
+        <tr>
+            <td colspan="4">N</td>
+        </tr>
+
+    </table>
+    
+</body>
+</html>
