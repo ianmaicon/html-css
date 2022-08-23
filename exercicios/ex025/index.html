@@ -14,10 +14,10 @@
 </head>
 <body>
     <h1>Formulários em HTML5</h1>
-    <form action="cadastro.php">
-        <p id="first-name"><label for="inome">Nome:</label> <input type="text" name="nome" id="inome"></p>
+    <form action="cadastro.php" method="post">
+        <p id="first-name"><label for="inome">Nome: *</label> <input type="text" name="nome" id="inome"></p>
 
-        <p id="last-name"><label for="isobrenome">Sobrenome:</label> <input type="text" name="sobrenome" id="isobrenome"></p>
+        <p id="last-name"><label for="isobrenome">Sobrenome: *</label> <input type="text" name="sobrenome" id="isobrenome"></p>
 
         <p><input type="submit" value="Enviar"></p>
     </form>
