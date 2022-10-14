@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+* {
+    background-color: darkgray;
+}
+
+header h1 {
+    margin: auto;
+}
+
+body {
+    background-color: white;
+    width: 600px;
+    margin: auto;
+}
