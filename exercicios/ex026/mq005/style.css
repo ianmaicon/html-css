@@ -75,3 +75,32 @@ article p {
     margin-bottom: 20px;
     text-indent: 10px;
 }
+
+div#anuncio {
+    padding: 30px;
+    background-color: rgba(139, 137, 139, 0.726);
+    border-radius: 8px;
+    text-align: center;
+}
+
+div > h2 {
+    color: chocolate;
+}
+
+div > p {
+    padding: 10px;
+    padding-bottom: 10px;
+}
+
+a#amaz {
+    color: teal;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+    padding: 20px;
+
+}
+
+a#amaz:hover {
+    color: brown;
+}
