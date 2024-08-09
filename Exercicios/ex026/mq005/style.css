@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html {
+    background-color: lightgray;
+}
+
+header {
+    background-color: darkgray;
+}
+
+header h1 {
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+}
+
+#burguer {
+    background-color: rgb(70, 68, 68);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#burguer:hover {
+    background-color: white;
+    color: black;
+}
+
+menu {
+    display: none;
+}
+
+menu ul {
+    list-style-type: none;
+}
+
+menu > ul > li > a {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(105, 105, 105);
+    color: white;
+    border-top: 1px solid rgb(134, 131, 131);
+}
+
+menu > ul > li > a:hover {
+    background-color: rgb(165, 158, 158);
+}
+
+main {
+    width: 80vw;
+    background-color: white;
+    margin: auto;
+    margin-top: 15px;
+    padding: 20px;
+    border-radius: 7px;
+}
+
+article > h2 {
+    padding-bottom: 20px;
+}
+
+article p {
+    text-align: justify;
+    margin-bottom: 20px;
+    text-indent: 10px;
+}
+
+div#anuncio {
+    padding: 30px;
+    background-color: rgba(139, 137, 139, 0.726);
+    text-align: center;
+    color: chocolate;
+}
+
+div > p {
+    padding: 10px;
+    padding-bottom: 10px;
+    color: black;
+}
+
+a#amaz {
+    color: teal;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+    padding: 20px;
+
+}
+
+a#amaz:hover {
+    color: brown;
+}
